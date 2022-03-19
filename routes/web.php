@@ -19,3 +19,11 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/esay', function () {
+    return view('esay');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
+
